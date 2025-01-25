@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement //开启注解方式的事务管理
 @Slf4j
+//开启项目之前记得先开nginx（在e盘）
 public class SkyApplication {
     public static void main(String[] args) {
         SpringApplication.run(SkyApplication.class, args);
